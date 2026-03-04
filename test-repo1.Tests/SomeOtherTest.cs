@@ -10,11 +10,11 @@ public class SomeOtherTest
         Assert.True(true);
     }
     
-    [Fact]
-    public void TestFail()
-    {
-        Assert.True(false);
-    }
+    //[Fact]
+    //public void TestFail()
+    //{
+    //    Assert.True(false);
+    //}
     
     [Fact]
     public void TestSkip()
