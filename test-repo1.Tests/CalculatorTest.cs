@@ -10,10 +10,6 @@ public class CalculatorTest
     public CalculatorTest()
     {
         _calculator = new Calculator();
-
-        int i = int.MaxValue;
-        int result = i + 1; // This will cause an overflow, but it's just for demonstration
-
     }
 
     [Theory]
